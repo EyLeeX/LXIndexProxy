@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root javaPackageBase="cmc.index.search.service">
+    <services>
+        <service name="Search" description="后台通用搜索服务">
+            <method name="Search" description="搜索">
+                <request>
+                    <field modifier="required" type="string" name="objectType" order="1" description="搜索对象类型"/>
+                    <field modifier="optional" type="string" name="keyword" order="2" description="搜索关键词"/>
+                    <field modifier="optional" type="PageInfo" name="pageInfo" order="3" description="分页信息"/>
+                </request>
+                <response>
+                    <field modifier="optional" type="string" name="items" order="1" description="搜索结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="string" name="facets" order="2" description="聚合结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="string" name="groups" order="3" description="分组结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="int32" name="TotalCount" order="4" description="总记录数"/>
+                </response>
+            </method>
+            <method name="ScrollSearch" description="全量搜索">
+                <request>
+                    <field modifier="required" type="string" name="objectType" order="1" description="搜索对象类型"/>
+                    <field modifier="optional" type="string" name="keyword" order="2" description="搜索关键词"/>
+                    <field modifier="optional" type="int32" name="pageSize" order="3" description="pageSize"/>
+                    <field modifier="optional" type="string" name="scrollId" order="4" description="pageSize"/>
+                </request>
+                <response>
+                    <field modifier="optional" type="string" name="items" order="1" description="搜索结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="string" name="facets" order="2" description="聚合结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="string" name="groups" order="3" description="分组结果，以 JSON 数组表示"/>
+                    <field modifier="optional" type="int32" name="TotalCount" order="4" description="总记录数"/>
+                    <field modifier="optional" type="string" name="scrollId" order="5" description="pageSize"/>
+                </response>
+            </method>
+            <method name="Index" description="建索引">
+                <request>
+                    <field modifier="required" type="string" name="indexMsgJson" order="1" description="建立索引对象串"/>
+                </request>
+            </method>
+            <method name="CloseScroll" description="释放scroll">
+                <request>
+                    <field modifier="required" type="string" name="scrollId" order="1" description="释放指定scroll"/>
+                    <field modifier="required" type="string" name="clusterRouter" order="2" description="指定集群"/>
+                </request>
+            </method>
+        </service>
+    </services>
+    <protoImports>
+        <protoImport path="Common.proto.global"/>
+    </protoImports>
+    <dataTypes>
+        <imports>
+            <import path="mtime.lark.net.rpc.util.PageInfo"/>
+        </imports>
+    </dataTypes>
+</root>

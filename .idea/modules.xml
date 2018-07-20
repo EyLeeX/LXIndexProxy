@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LXIndexProxy.iml" filepath="$PROJECT_DIR$/.idea/LXIndexProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-client-sdk/mfw-index-client-sdk.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-client-sdk/mfw-index-client-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-comm/mfw-index-comm.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-comm/mfw-index-comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-core/mfw-index-core.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-core/mfw-index-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-es/mfw-index-es.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-es/mfw-index-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-interface/mfw-index-interface.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-interface/mfw-index-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-mq-handler/mfw-index-mq-handler.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-mq-handler/mfw-index-mq-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-parent.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-search-service/mfw-index-search-service.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-search-service/mfw-index-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-search-service-contract/mfw-index-search-service-contract.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-search-service-contract/mfw-index-search-service-contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mfw-index/mfw-index-search-test/mfw-index-search-test.iml" filepath="$PROJECT_DIR$/mfw-index/mfw-index-search-test/mfw-index-search-test.iml" />
+    </modules>
+  </component>
+</project>

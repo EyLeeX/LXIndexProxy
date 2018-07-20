@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mfw.traffic</groupId>
+        <artifactId>project-root</artifactId>
+        <version>0.0.1</version>
+        <relativePath/>
+    </parent>
+    <groupId>mfw.index</groupId>
+    <artifactId>mfw-index-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mfw-index-client-sdk</module>
+        <module>mfw-index-core</module>
+        <module>mfw-index-mq-handler</module>
+        <module>mfw-index-comm</module>
+        <module>mfw-index-interface</module>
+        <module>mfw-index-search-test</module>
+        <module>mfw-index-search-service</module>
+        <module>mfw-index-search-service-contract</module>
+        <module>mfw-index-es</module>
+    </modules>
+
+    <properties>
+        <version.junit>4.12</version.junit>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${version.junit}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>mfw.index</groupId>
+                <artifactId>mfw-index-comm</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mfw.index</groupId>
+                <artifactId>mfw-index-interface</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mfw.index</groupId>
+                <artifactId>mfw-index-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mfw.index</groupId>
+                <artifactId>mfw-index-es</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mfw.index</groupId>
+                <artifactId>mfw-index-search-service-contract</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
