@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mfw-index-client-sdk" />
+        <module name="mfw-index-comm" />
+        <module name="mfw-index-core" />
+        <module name="mfw-index-es" />
+        <module name="mfw-index-interface" />
+        <module name="mfw-index-mq-handler" />
+        <module name="mfw-index-search-service" />
+        <module name="mfw-index-search-service-contract" />
+        <module name="mfw-index-search-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mfw-index-client-sdk" target="1.8" />
+      <module name="mfw-index-comm" target="1.8" />
+      <module name="mfw-index-core" target="1.8" />
+      <module name="mfw-index-es" target="1.8" />
+      <module name="mfw-index-interface" target="1.8" />
+      <module name="mfw-index-mq-handler" target="1.8" />
+      <module name="mfw-index-parent" target="1.8" />
+      <module name="mfw-index-search-service" target="1.8" />
+      <module name="mfw-index-search-service-contract" target="1.8" />
+      <module name="mfw-index-search-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

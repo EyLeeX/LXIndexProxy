@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mfw-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-client-sdk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-comm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-mq-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-search-service-contract" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mfw-index/mfw-index-search-test" charset="UTF-8" />
+  </component>
+</project>
